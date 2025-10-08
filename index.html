@@ -3,20 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>台中市景點推薦</title>
 	<style>
 		.container{margin:0 auto; width:1024px;}
 		.large_font{font-size:30px;}
-		td{text-align:center;}
+		td{text-align:center;padding: 30px}
 		img{border-radius:30px;}
 		.img_round {border-radius: 50%; width:350px;height:350px;}
+		.rounded_corner{border-radius: 30px}
+		.navbar{
+			overflow: hidden;
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+		.navbar a{
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		.navbar a:hover{
+			background: #ddd;
+			color: black;
+		}
 	</style>
 </head>
 <body>
-	<div class="container">
+	<div class="navbar">
+  <a href="#home">回首頁</a>
+  <a href="#1">台中國家歌劇院</a>
+  <a href="#2">臺中州廳</a>
+  <a href="#3">審計新村</a>
+</div>
+	<div id= "home" class="container">
 	<table>
 		<tr>
 			<td colspan="2">
+				<br>
+				<br>
+				<br>
 				<div class="large_font">台中市景點推薦</div>
 				<img src="00.jpeg">
 		</td>
@@ -43,14 +72,14 @@
 
 
 </td>
-		<td><img class="img_round" src="01.jpeg">
+		<td><img id= "1" class="img_round" src="01.jpeg">
 
 </td>
 	</tr>
 	<tr>
 		<td>
 			
-<img class="img_round" src="02.jpeg"></td>
+<img id= "2" class="img_round" src="02.jpeg"></td>
 		<td>
 			<div class="large_font">臺中州廳</div>
 			臺中州廳位於台中市西區，為一座國定古蹟，二戰後由台中市政府遷入辦公，由於該建築原為日治時期的臺中州廳（即「州政府」），因而沿用此稱呼。周邊鄰近台中文學公園、台中刑務所演武場、宮原眼科等熱門景點。
@@ -61,7 +90,7 @@
 	</tr>
 	<tr>
 		<td>
-			<div class="large_font">審計新村</div>
+			<div id= "3" class="large_font">審計新村</div>
 			審計新村位於台中市西區，原為臺灣省政府審計處員工宿舍，在凍省之後成了閒置空間荒廢多年，近年配合台中市政府勞工局「摘星青年、築夢台中」創業基地進駐計畫，重新規劃轉型成為創業基地與文創園區。
 
 			圖：審計新村
@@ -71,7 +100,15 @@
 		<td><img class="img_round" src="03.jpeg"></td>
 	</tr>
 	<tr>
-		<td colspan="2">張宇良</td>
+		<td colspan="2">
+			<br>
+			<br>
+			<br>
+			<iframe class="rounded_corner" frameborder="0" src="https://www.google.com/maps/d/embed?mid=1e4V82VeyW-Ze2ypUxt16E0y_oWN5H6g&ehbc=2E312F" width="1024" height="800"></iframe>
+			<br>
+			<br>
+			<br>
+		張宇良</td>
 		
 	</tr>
 </table>
